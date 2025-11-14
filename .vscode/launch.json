@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Deno Tests (./tests)",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "deno",
+      "runtimeArgs": [
+        "test",
+        "--inspect-brk",
+        "--allow-all",
+        "tests"
+      ],
+      "sourceMaps": true,
+      "outputCapture": "std",
+      "console": "integratedTerminal",
+      "attachSimplePort": 9229
+    }
+  ]
+}

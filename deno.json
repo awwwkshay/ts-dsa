@@ -5,7 +5,8 @@
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1",
-    "@lib": "./lib/index.ts",
-    "@utils": "./lib/utils/index.ts"
+    "@lib": "./src/lib/index.ts",
+    "@utils": "./src/lib/utils/index.ts",
+    "@problems": "./src/problems/index.ts"
   }
 }
